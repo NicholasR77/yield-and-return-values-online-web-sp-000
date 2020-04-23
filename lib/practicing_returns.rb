@@ -8,5 +8,5 @@ def hello(array)
   end
 end
 
-
+binding.pray
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
